@@ -1,0 +1,30 @@
+Langkah memnbuat API
+1. Buat folder API Di APP\Controller
+dan buat file responformater di dalam folder API.
+2. Buat folder API di dalam folder request
+3. Masukan route didalam file API
+4. Intall laravel cors https://github.com/spatie/laravel-cors
+jalankan composer require spatie/laravel-cors
+buka folder app/Http/Kernel.php cari protected $middleware dan masukan \Spatie\Cors\Cors::class
+link dokumentasi https://documenter.getpostman.com/view/12151209/T1DpDJGQ
+
+Langkah membuat Vue
+= Create -> Create a new project here (Vue_shayna)->
+->masukan nama project folder-> pilih npm-> langsung next->Default resert
+= Jika sudah di instal->tasks->run task->open app
+= Plagin->add router atau add router tambah manual vue/cli-plugin-router
+= intal bootstrap -> Dependencies->cari bootstrap
+= masukan template -> copy, css,font,img ke public dan copy head di public/index.html
+= ganti javascript -> Dependencies->cari vue-owl-carousel
+
+Cara menjalankan vue -> masuk ke foldernya buka terminal npm run serve 
+
+Mengupload ke github
+=> Masuk ke folder yg mau di upload -> klik kanan open git blas -> masukan user enter email enter
+git config --global user.name "wanda101"
+git config --global user.email "wandasuwanda101@gmail.com"
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/wanda101/shaynavue.git
+git push -u origin master (Selesai)
